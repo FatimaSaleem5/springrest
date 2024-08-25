@@ -30,7 +30,8 @@ public class MyController {
 	//so we'll write
 	
 	@Autowired
-	private CourseService courseService;//it is a variable 
+	private CourseService courseService;
+	//it is a variable
 	
 
 	@GetMapping ("/home")
